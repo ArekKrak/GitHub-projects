@@ -1,0 +1,41 @@
+		*********FINANCIAL CALCULATORS APPLICATION*********
+
+	Overview
+
+The Financial Calculators Application is a user-friendly tool designed to help users perform various financial calculations. It includes two main calculators: an Investment Calculator and a Bond Repayment Calculator. This application is built using Python's Tkinter library for the graphical user interface and Matplotlib for plotting investment growth.
+
+	Features
+
+Investment Calculator:
+- Calculates the final balance of an investment based on user input.
+- Supports both simple and compound interest calculations.
+- Option to choose compounding frequency (annually, semi-annually, quarterly, monthly).
+- Plot the growth of investment over time.
+
+Bond Repayment Calculator:
+- Calculates monthly repayments for a bond based on the house value, interest rate, and repayment period.
+- Provides a simple and clear result of the monthly amount to be paid.
+
+	Requirements
+- Python 3.x
+- Tkinter (usually comes with Python installation)
+- Matplotlib
+
+*To install Matplotlib, run: pip install matplotlib
+
+	Running the Application
+*To start the application, run the main.py file from your Python environment. This can be done from a command line or terminal with the command: python main.py
+
+Usage Instructions:
+- On launching the application, you will see a window with two options: "Investment Calculator" and "Bond Calculator".
+- Click on the desired calculator to proceed.
+- Fill in the required fields in the dialog boxes that appear and confirm your input.
+- For the Investment Calculator, after viewing the result, you can choose to see a plot showing the growth of the investment over time.
+- To exit the calculator or application, simply close the window.
+
+Notes:
+- Ensure that all inputs are valid numbers. The application will prompt an error message for invalid inputs.
+- The plot feature in the Investment Calculator requires a graphical display environment.
+	
+	Support
+For any queries or issues, please contact the development team at grzesiu.brzeczykicz@gmail.com.
